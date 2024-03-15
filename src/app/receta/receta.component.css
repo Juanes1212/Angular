@@ -1,0 +1,99 @@
+.header {
+    text-align: center;
+    background-color: rgb(3, 148, 122);
+    padding: 5px;
+  }
+  
+  .header img {
+    max-width: 200px;
+    vertical-align: middle;
+  }
+  
+  .header h1 {
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .footer {
+    background-color: rgb(3, 148, 122);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .datos {
+    color: #000000;
+  }
+  
+ 
+/* mosaico */  
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #006103;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #006103;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: disc;
+    font-family: Arial, sans-serif;
+}
+
+ol {
+    list-style-type: decimal;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.boton-devolverse {
+  background-color: #ffffff; /* Fondo claro */
+  border: 2px solid #f44336; /* Borde rojo */
+  color: #f44336; /* Texto rojo */
+  padding: 10px 20px; /* Espaciado interior */
+  text-align: center; /* Alineación de texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.boton-devolverse:hover {
+  background-color: #f44336; /* Cambiar color de fondo al pasar sobre el botón */
+  color: #ffffff; /* Cambiar color de texto al pasar sobre el botón */
+}
+
+
+.spacer {
+  height: 20px; /* Espacio entre las secciones */
+}

@@ -1,0 +1,130 @@
+.header {
+    text-align: center;
+    background-color: rgb(3, 148, 122);
+    padding: 5px;
+  }
+  
+  .header img {
+    max-width: 200px;
+    vertical-align: middle;
+  }
+  
+  .header h1 {
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .footer {
+    background-color: rgb(3, 148, 122);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .datos {
+    color: #000000;
+  }
+
+/*recetas*/
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.spacer {
+  height: 20px; /* Espacio entre las secciones */
+}
+
+.container {
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido en la pantalla */
+}
+
+/* Ajustes adicionales para el encabezado y el pie de página si es necesario */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Estilos para el resto de tu contenido */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr)); /* Tamaño de los contenedores y 3 por fila */
+  gap: 20px;
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.grid-item {
+  text-align: center;
+  background-color: #5aab62;
+  border-radius: 10px;
+  padding: 10px; /* Reducir el relleno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: 200px; /* Establece una altura fija para las imágenes */
+  object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  border-radius: 10px; /* Ajusta el radio de borde para que coincida con el contenedor */
+}
+
+.grid-item p {
+  font-family: Arial, sans-serif;
+  margin-top: 5px; /* Reducir el margen superior */
+  color: #444;
+}  
+
+
+.spacer {
+  height: 20px; /* Ajusta la altura según sea necesario */
+}
+
+.boton-ver {
+  background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color de texto */
+  padding: 10px 20px; /* Espaciado interior */
+  text-align: center; /* Alineación de texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+.boton-ver:hover {
+  background-color: #45a049; /* Cambiar color de fondo al pasar sobre el botón */
+}
+
+.enlace-ver {
+  color: white; /* Color de texto del enlace */
+  text-decoration: none; /* Sin subrayado en el enlace */
+}
+
+
+.boton-devolverse {
+  background-color: #ffffff; /* Fondo claro */
+  border: 2px solid #f44336; /* Borde rojo */
+  color: #f44336; /* Texto rojo */
+  padding: 10px 20px; /* Espaciado interior */
+  text-align: center; /* Alineación de texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.boton-devolverse:hover {
+  background-color: #f44336; /* Cambiar color de fondo al pasar sobre el botón */
+  color: #ffffff; /* Cambiar color de texto al pasar sobre el botón */
+}

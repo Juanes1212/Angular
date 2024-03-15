@@ -1,0 +1,92 @@
+.header {
+    text-align: center;
+    background-color: rgb(3, 148, 122);
+    padding: 5px;
+  }
+  
+  .header img {
+    max-width: 200px;
+    vertical-align: middle;
+  }
+  
+  .header h1 {
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .footer {
+    background-color: rgb(3, 148, 122);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .datos {
+    color: #000000;
+  }
+  
+ 
+
+  
+.boton-devolverse {
+    background-color: #ffffff; /* Fondo claro */
+    border: 2px solid #f44336; /* Borde rojo */
+    color: #f44336; /* Texto rojo */
+    padding: 10px 20px; /* Espaciado interior */
+    text-align: center; /* Alineación de texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como elemento en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+  }
+  
+  .boton-devolverse:hover {
+    background-color: #f44336; /* Cambiar color de fondo al pasar sobre el botón */
+    color: #ffffff; /* Cambiar color de texto al pasar sobre el botón */
+  }
+  
+  
+  .spacer {
+    height: 20px; /* Espacio entre las secciones */
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+strong {
+    color: #333;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
